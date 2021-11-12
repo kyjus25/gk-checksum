@@ -15,7 +15,6 @@ async function calc() {
     const html = html2json( req.match(/article([\s\S]*?)(.*)<\/article>/g).toString() );
     // Look for <h2/> in the page. These are the version releases
     const releases = html.child.filter(i => i.tag === 'h2').map(i => i.attr.id.replace('version-', ''));
-    
     for (let i = 0; i < releases.length; i++) {
         // Split the version (found as "100") to "1.0.0".
         const verSplit = releases[i].split('');
