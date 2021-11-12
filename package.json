@@ -1,0 +1,25 @@
+{
+  "name": "gk-checksum",
+  "version": "1.0.0",
+  "description": "gk-checksum",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyjus25/gk-checksum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyjus25/gk-checksum/issues"
+  },
+  "homepage": "https://github.com/kyjus25/gk-checksum#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "download": "^8.0.0",
+    "figlet": "^1.5.2",
+    "html2json": "^1.0.2"
+  }
+}
